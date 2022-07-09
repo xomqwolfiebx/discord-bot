@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 require('dotenv').config();
 const client = new Discord.Client({
   partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
+  intents: [Discord.Intents.FLAGS.GUILDS, Discord.Intents.FLAGS.GUILD_MESSAGES],
 });
 const db = require('quick.db');
 const mongoose = require('mongoose');

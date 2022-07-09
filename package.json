@@ -3,5 +3,16 @@
   "version": "0.0.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "common-tags": "^1.8.2",
+    "discord-menus": "^1.0.8",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "fs": "*",
+    "mongoose": "^6.4.4",
+    "ms": "^2.1.3",
+    "nodemon": "^2.0.19",
+    "quick.db": "^9.0.5"
   }
 }
